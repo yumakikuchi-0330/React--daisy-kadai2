@@ -1,4 +1,5 @@
 export type EmployeeCardProps = {
+  id: number;
   name: string;
   job: string;
   email: string;
