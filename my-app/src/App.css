@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.employee-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  width: 400px;
+  height: 150px;
+  border: solid 1px #000;
+}
+
+.employee-card-img {
+  width: 70px;
+  height:70px ;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
